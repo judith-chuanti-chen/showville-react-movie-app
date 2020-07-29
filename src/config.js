@@ -8,7 +8,7 @@ const API_KEY = '3b61091cb6935d025e795e50d369b4c0';
 const SEARCH_BASE_URL = `${API_URL}search/movie/?api_key=${API_KEY}&query=`;
 const POPULAR_BASE_URL = `${API_URL}movie/popular?api_key=${API_KEY}`;
 
-const IMAGE_BASE_URL = 'http://image.tmdb.org/t/p/';
+const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/';
 // Sizes: w300, w780, w1280, original
 const BACKDROP_SIZE = 'w1280';
 // w92, w154, w185, w342, w500, w780, original
